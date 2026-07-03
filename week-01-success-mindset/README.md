@@ -33,7 +33,10 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+One belief I hold that many people around me disagree with is that you need money to make money. While hard work, skills, and determination are important, I believe having some level of financial support or resources often makes it easier to turn opportunities into results.
+
+For example, someone may learn video editing for free in a physical class, but without a laptop, a smartphone, or even someone willing to lend them the necessary equipment, it becomes difficult to practice the skill or earn money from it. In many situations, talent and knowledge alone are not enough; access to basic resources can make a significant difference. That is why I believe that while money is not the only factor for success, having some financial resources or support can be essential in creating opportunities and building income.
+
 
 ---
 
@@ -55,23 +58,21 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Your performance in a classroom does not determine your potential or who you will become in life.
 
 ### Evidence from my life
+I was not the brightest student in school and had very little interest in academics. However, I was always interested in one thing: money and the opportunities it could create. While I was still in school, I started a small business, and that experience taught me more about responsibility, problem-solving, and value creation than the classroom did. Even today, the desire to achieve financial success continues to motivate me to learn, improve my skills, and become the best technology specialist I can be.
 
-Add your answer here...
-
----
 
 ## Truth #2
 
 ### Truth
 
-Add your answer here...
+More things are possible than people initially believe when they combine effort, learning, and persistence.
 
 ### Evidence from my life
 
-Add your answer here...
+There have been several times in my life when I wanted to do something but had no experience, no connections, and no idea where to start. Instead of giving up, I chose to learn, ask questions, make mistakes, and keep trying. Looking back, many of the things I once thought were impossible became achievable simply because I refused to stop learning and taking action. This has taught me that people are often capable of much more than they initially believe.
 
 ---
 
@@ -79,11 +80,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+If God places a genuine desire in your heart, and you remain faithful, committed, and willing to act, it is possible to achieve it.
 
 ### Evidence from my life
 
-Add your answer here...
+As a Christian, I believe that many of the desires in our hearts are not there by accident. There have been goals and dreams I carried for years, even when my circumstances did not support them or when they seemed impossible. Through prayer, faith, and consistent effort, I have seen some of these desires gradually become reality. This has taught me that when a desire aligns with God's purpose and is accompanied by faith, hard work, and perseverance, it can eventually come to pass.
 
 ---
 
@@ -135,17 +136,30 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+In 2030, Veronica Bassey had become one of the most remarkable examples of career transformation among young technology professionals. After graduating with a Second Class Lower degree in Economics, she sponsored herself to New Zealand in 2027 to pursue a Master's degree in Applied Computing and Information Technology. In 2029, she graduated with distinction, proving that academic beginnings do not always determine future outcomes.
+
+During her master's program, Bassey built a strong portfolio of cloud and DevOps projects that demonstrated her technical abilities. She designed cloud infrastructure projects using AWS, automated deployments using DevOps tools, and published several projects on her GitHub portfolio. Her work included infrastructure automation, cloud deployments, Linux administration, CI/CD pipelines, and monitoring solutions. She also launched a personal portfolio website to showcase her projects, certifications, and technical documentation.
+
+In 2028, while completing her studies, Bassey earned the AWS Certified Solutions Architect – Associate certification, validating her expertise in cloud computing and modern infrastructure practices. She also published technical articles and blog posts documenting her transition from Economics to Cloud Engineering, helping other aspiring professionals understand that career changes into technology were possible.
+
+Later that year, she secured a Cloud Engineer position at Apple, where she contributed to cloud infrastructure operations, deployment automation, and system reliability projects. She worked alongside engineering teams to improve cloud environments, optimize infrastructure performance, and support large-scale systems. By 2030, she had progressed into cloud and DevOps responsibilities within the organization and was earning more than $180,000 annually.
+
+Outside her professional role, Bassey became an active contributor to the technology community. She mentored aspiring cloud engineers, particularly individuals transitioning from non-technical backgrounds, and regularly shared learning resources, project guides, and career advice through online communities. She also volunteered in student and technology groups, helping others build technical portfolios and prepare for cloud certifications.
+
+Her journey from an Economics graduate with limited interest in academics to a distinction master's graduate, AWS-certified professional, and Cloud Engineer at Apple became evidence that determination, continuous learning, and practical experience can redefine a person's future. By 2030, Veronica Bassey had not only built a successful career in cloud computing and DevOps but had also become a source of inspiration for many others pursuing careers in technology.
+
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`_____https://www.linkedin.com/posts/veronica-bassey_in-2030-veronica-bassey-had-become-one-of-share-7478880168342761472-GA68/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC6aYb8B4LyUoEt-BQnaUfGYuxAw8xpNKZo_____________________`
 
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
+
+
 
 ### Important
 
@@ -171,11 +185,16 @@ If Yes:
 
 **What emotion did you feel?** (minimum 50–100 words)
 
-## Answer
+## Yes
 
 Add your answer here...
 
----
+Yes, I have cut corners in situations that were not illegal but were dishonest. For example, at a bank, I once claimed that I was pregnant so that I could receive priority attention and be attended to more quickly.
+
+At the time, it felt good because I was able to avoid the long queue and get the attention I wanted. However, a few days later, I reflected on what I had done and realized that everyone else in the queue also had important responsibilities, urgent needs, and places to be, yet they patiently waited their turn.
+
+That experience made me feel small and somewhat disappointed in myself because I had gained an unfair advantage through dishonesty. It taught me that convenience and immediate benefits are not worth compromising integrity, and since then, I have become more conscious about acting honestly even when taking a shortcut seems easier.
+
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
 
@@ -199,16 +218,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. The Psychology of Money — Morgan Housel
+2. Atomic Habits — James Clear
+3. How to Win Friends and Influence People — Dale Carnegie
+4. Think and Grow Rich — Napoleon Hill
+5. The 7 Habits of Highly Effective People — Stephen R. Covey
+6. Rich Dad Poor Dad — Robert Kiyosaki
+7. Leaders Eat Last — Simon Sinek
+8. Never Split the Difference — Chris Voss
+9. The Mountain Is You — Brianna Wiest
+10. Deep Work — Cal Newport
 
 ---
 
@@ -237,16 +256,13 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Sleep hours and energy levels
+* Spending tracker
+* Monthly income and savings
+* Portfolio and GitHub updates
+* Learning hours per week
+* Projects completed and documented
+
 
 ---
 
@@ -272,7 +288,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,7 +306,14 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Weekly Routine (Next 5 Months)
+Monday: 1 hour of DMI study and practice
+Tuesday: 3 hours of DMI sessions, assignments, and project work
+Wednesday: 1 hour of DMI study and revision
+Thursday: 3 hours of DMI sessions, assignments, and project work
+Friday: 1 hour of DMI study and hands-on practice
+Saturday: 3 hours of DMI sessions, labs, and project building
+Sunday: 3 hours of DMI learning, weekly review, and planning for the upcoming week
 
 ---
 
@@ -298,12 +321,18 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday – Night
+Tuesday – Morning (between 5:00 AM and 10:00 AM)
+Wednesday – Night
+Thursday – Morning (between 5:00 AM and 10:00 AM)
+Friday – Night
+Saturday – Morning (between 5:00 AM and 10:00 AM)
+Sunday – Morning (between 5:00 AM and 10:00 AM)
 
 #### How Many Sessions Per Week?
 
 Add your answer here...
-
+7 sessions per week
 ---
 
 ### Distraction Rules
@@ -316,29 +345,34 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
-
+No phone use during DMI study sessions unless it is needed for learning.
+No social media before or during DMI study sessions.
+On morning study days, start DMI between 5:00 AM and 10:00 AM before the rest of the day's responsibilities begin.
+Study in a quiet, distraction-free environment with only the materials needed for learning.
+Turn off unnecessary notifications and avoid multitasking during study sessions.
 ---
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that asking for help is not a sign of weakness, it is often the fastest way to learn. I spent about four days trying to get VS Code working on my own without success. The moment I reached out to the DMI community for help, the issue was resolved in seconds. That experience taught me that while persistence is important, knowing when to ask for help can save valuable time and accelerate my growth.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I noticed that I sometimes focus so much on solving a problem that I overlook the importance of following the correct process. This week, I successfully troubleshot and resolved a work-related issue, but afterward I realized I had skipped parts of the standard troubleshooting process. Although I arrived at the correct solution, I understood that consistently following the proper process is just as important as getting the right result because it makes my work more reliable, repeatable, and easier for others to understand and build upon.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Go to bed on or before 10:00 PM every night to maintain a consistent sleep schedule.
+Plan the next day's priorities and schedule every night before bed.
+Unwind twice a week by watching a movie or treating myself to something enjoyable to recharge and avoid burnout.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`______________https://www.linkedin.com/posts/veronica-bassey_in-2030-veronica-bassey-had-become-one-of-share-7478880168342761472-GA68/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC6aYb8B4LyUoEt-BQnaUfGYuxAw8xpNKZo____________`
 
 ---
 
@@ -346,7 +380,7 @@ Paste your LinkedIn post link here:
 
 - LinkedIn Post URL: **ADD LINK HERE**  
 - Blog / Medium : **ADD LINK HERE**  
-
+https://www.linkedin.com/posts/veronica-bassey_in-2030-veronica-bassey-had-become-one-of-share-7478880168342761472-GA68/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC6aYb8B4LyUoEt-BQnaUfGYuxAw8xpNKZo
 ---
 
 ## 📌 About DMI & CloudAdvisory
@@ -369,3 +403,7 @@ It helps learners build strong DevOps foundations with hands-on experience.
 ---
 
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track*
+
+
+
+
