@@ -85,7 +85,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 Add your screenshot here.
 
----
+![alt text](<Screenshot 6.png>)
 
 # Submission Instructions
 
@@ -99,7 +99,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/veronicagregorybassey-code/devops-micro-internship-pravinmishra`
 
 ---
 
