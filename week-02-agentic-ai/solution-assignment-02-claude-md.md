@@ -20,9 +20,10 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
 
----
+![alt text](<Screenshot 1.png>)
+
+
 
 # Task 2 — Generate the First Draft with /init
 
@@ -36,7 +37,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 Add your screenshot here.
 
----
+](<Screenshot 2.png>)
 
 # Task 3 — Customize the CLAUDE.md
 
@@ -50,7 +51,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 Add your screenshot here.
 
----
+![alt text](<Screenshot 3.png>)
 
 # Task 4 — Test the After State
 
@@ -64,13 +65,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 Add your screenshot here.
 
----
+![alt text](<Screenshot 4.png>)
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
 Add your screenshot here.
 
----
+![Screenshot 5](../screenshots/screenshot%205.png)
 
 # Task 5 — Commit and push your changes to your fork in GitHub
 
