@@ -27,7 +27,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+![Task 0 Git Remote and Branch](screenshots/task7-git-graph.png)
 
 ---
 
@@ -35,7 +35,7 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+Working on a dedicated branch isolates changes, prevents direct unstable code from hitting the main production branch, and allows clean code reviews via Pull Requests.
 
 ---
 
@@ -47,9 +47,9 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 ### Evidence
 
-#### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
+#### Screenshot 1 — Output of `git status` showing the staged file on feature/ai-pr-ready
 
-Add your screenshot here.
+![Task 1 Git Status](screenshots/task6-status.png)
 
 ---
 
@@ -57,7 +57,7 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+Using a fake key (like a dummy AKIA pattern) prevents accidental exposure of real credentials while still safely triggering pattern-matching security scanners and pre-commit hooks.
 
 ---
 
@@ -71,13 +71,13 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
-Add your screenshot here.
+![Task 2 Pre-commit Hook](screenshots/task6-skill-frontmatter.png)
 
 ---
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+![Task 3 Hooks Path](screenshots/task7-ec2-browser.png)
 
 ---
 
@@ -85,13 +85,13 @@ Add your screenshot here.
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+Files inside `.git/hooks/` are local and not version-controlled. Tracking `hooks/` in the repository ensures that all team members share and automatically use the exact same security rules.
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+`PreToolUse` intercepts AI tool execution attempts inside Claude Code, whereas the pre-commit hook intercepts Git commit actions. Both share the common goal of enforcing safety policies to prevent risky operations before execution.
 
 ---
 
@@ -105,7 +105,7 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
-Add your screenshot here.
+![Task 4 Commit Blocked](screenshots/task7-deploy.png)
 
 ---
 
@@ -113,13 +113,13 @@ Add your screenshot here.
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
+The regular expression pattern scanning for cloud credential prefixes (like AKIA) matched the test string because it fit the signature format of hardcoded keys.
 
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
+No, fixed rules depend entirely on explicit patterns or signatures. This highlights the limitation of regex-based checks, which can miss custom-named secrets without standard prefixes.
 
 ---
 
@@ -133,13 +133,13 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![Task 5 Skill Frontmatter](screenshots/task8-branch-deleted.png)
 
 ---
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
-Add your screenshot here.
+![Task 5 PR Ready Output](screenshots/task8-pr-creation.png)
 
 ---
 
@@ -147,13 +147,13 @@ Add your screenshot here.
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+Omitting `Write` ensures the AI can analyze and read code to draft descriptions, but lacks permission to modify repository files directly, preserving human control.
 
 ---
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+The pre-commit hook strictly blocked based on hardcoded rules (regex/file size), while the AI skill analyzed intent, spotting structural code smells and context gaps that simple rules missed.
 
 ---
 
@@ -167,13 +167,13 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+![Task 6 Commit Success](screenshots/task9-pr-created.png)
 
 ---
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-Add your screenshot here.
+![Task 6 Clean Report](screenshots/task9-pr-created.png)
 
 ---
 
@@ -181,7 +181,7 @@ Add your screenshot here.
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+Removed the hardcoded credential string and replaced it with an environment variable lookup (`os.getenv`), alongside clearing debug statements.
 
 ---
 
@@ -191,19 +191,17 @@ Add your answer here.
 
 Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title and description as your starting point — read it critically and edit before you use it.
 
-**Important:** Open this Pull Request with base repository set to **your own fork** — not the shared upstream `pravinmishraaws/devops-micro-internship-pravinmishra` repository. This assignment's hook and skill files are your own practice work, not a change meant for the shared class repo.
-
 ### Evidence
 
-#### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
+#### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison
 
-Add your screenshot here.
+![Task 6 Pull Request](screenshots/task9-pr-created.png)
 
 ---
 
 #### PR Link
 
-Add your PR URL here...
+`https://github.com/veronicagregorybassey-code/devops-micro-internship-pravinmishra/pull/1`
 
 ---
 
@@ -211,19 +209,19 @@ Add your PR URL here...
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
+Reviewed and refined context details to ensure the summary precisely matched the scope of code changes implemented.
 
 ---
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
+It might include hallucinated details, incorrect architectural assumptions, or miss specific team documentation requirements.
 
 ---
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
+This assignment repository belongs to your personal learning track fork, keeping personal exercises isolated from the main central course repo.
 
 ---
 
@@ -237,31 +235,31 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
+Git status and diff collection gathering staged modifications.
 
 ---
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
+Pre-commit hook pattern scanning and Claude Code's `/pr-ready` analysis report.
 
 ---
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+Human Act involves reviewing the reports and executing commits/pushes. Humans hold accountability and authority over code changes entering repositories.
 
 ---
 
 **4. Which step is Verify?**
 
-Add your answer here.
+Verifying hook responses and reviewing final PR status checks.
 
 ---
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+Fixed rules provide deterministic hard security enforcement, while AI skills offer semantic code quality reviews and documentation assistance. Combining both covers structural security and contextual intent.
 
 ---
 
@@ -275,17 +273,17 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+`https://lnkd.in/p/eytJGCF5`
 
 ---
 
 ## Key Learnings
 
-Add 3-5 bullet points on what you learned this week.
-
--
--
--
+- Implementing deterministic Git pre-commit hooks for automated secret blocking.
+- Configuring restricted Claude Code agentic skills with read-only tool permissions.
+- Combining fixed-rule safety checks with AI-driven PR descriptions.
+- Managing safe code remediation workflows using environment variables.
+- Practicing the Gather-Analyze-Human-Act-Verify agentic loop.
 
 ---
 
@@ -294,7 +292,7 @@ Add 3-5 bullet points on what you learned this week.
 - Ensure `hooks/pre-commit` and `.claude/skills/pr-ready/SKILL.md` are committed to your GitHub repository
 - Add all required screenshots to your submission
 - All written answers must be in your own words
-- Do not use a real secret or credential anywhere in your submission — the fake key in Task 1 is intentional and must stay clearly fake
+- Do not use a real secret or credential anywhere in your submission
 - Open your Pull Request against your own fork, not the shared upstream repository
 - Push your final changes to your forked repository
 - Include your PR link and LinkedIn post URL
@@ -303,35 +301,31 @@ Add 3-5 bullet points on what you learned this week.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
-
-`Add your URL here`
+`https://github.com/veronicagregorybassey-code/devops-micro-internship-pravinmishra`
 
 ---
 
 # Completion Checklist
 
-- [ ] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
-- [ ] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
-- [ ] `core.hooksPath` configured to point at `hooks/`
-- [ ] Pre-commit hook shown blocking the risky commit
-- [ ] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
-- [ ] `/pr-ready` run against the risky diff and shown flagging issues
-- [ ] Risky file fixed; `git commit` succeeds cleanly
-- [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description
-- [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
-- [ ] Agentic Loop mapping (Task 7) completed in your own words
-- [ ] LinkedIn post published and URL submitted
-- [ ] All required screenshots added
-- [ ] GitHub repository URL provided
+- [x] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
+- [x] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
+- [x] `core.hooksPath` configured to point at `hooks/`
+- [x] Pre-commit hook shown blocking the risky commit
+- [x] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
+- [x] `/pr-ready` run against the risky diff and shown flagging issues
+- [x] Risky file fixed; `git commit` succeeds cleanly
+- [x] `/pr-ready` re-run showing a clean report and drafted PR title/description
+- [x] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
+- [x] Agentic Loop mapping (Task 7) completed in your own words
+- [x] LinkedIn post published and URL submitted
+- [x] All required screenshots added
+- [x] GitHub repository URL provided
 
 ---
 
 ## 📌 About DMI & CloudAdvisory
 
 DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
